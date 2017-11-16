@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>猜字游戏</title>
+    <style>
+        /*通过CSS样式美化游戏界面*/
+
+        #prompt {
+            font-size: 16pt;
+        }
+
+        table {
+            width: 90%;
+            margin: 10px;
+            margin-left: 5%;
+        }
+
+        #low,
+        #high {
+            background-color: lightgray;
+            height: 1em;
+        }
+
+        #mid {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading"></h1>
+    <table>
+        <tr>
+            <td id="low"></td>
+            <td id="mid"></td>
+            <td id="high"></td>
+        </tr>
+    </table>
+    <label id="prompt"></label>
+    <input type="text" id="input">
+    <script src="./test.js"></script>
+</body>
+
+</html>
